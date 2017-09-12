@@ -1,0 +1,11 @@
+<ion-view title="Sites1">
+    <ion-content>
+        <button class="button button-icon icon ion-plus" ng-click="insert()">Add New One</button>
+        <ul class="list">
+            <h1>Lists</h1>
+            <li class="item" ng-repeat="(key, value) in lists">
+                {{value.title}}
+            </li>
+        </ul>
+    </ion-content>
+</ion-view>
